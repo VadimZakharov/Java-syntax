@@ -1,2 +1,2 @@
 # ProjectToGit
-Собрание задач с javarush
+Собрание задач и общей информации с javarush
