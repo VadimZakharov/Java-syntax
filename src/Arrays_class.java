@@ -57,6 +57,6 @@ public class Arrays_class {
         System.out.println(str8);
 
         System.out.println("Ссылка на Oracle документация по классу Arrays https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Arrays.html");
-
+        System.out.println("https://javarush.ru/groups/posts/massivy-java " + " https://javarush.ru/groups/posts/1932-koe-chto-o-massivakh " + " https://javarush.ru/groups/posts/1933-klass-arrays-i-ego-ispoljhzovanie");
     }
 }
