@@ -1,4 +1,5 @@
 public class This {
+
     public static void main(String[] args) {
         Human human1 = new Human();
         human1.setName("Vadim");
@@ -8,6 +9,7 @@ public class This {
         human2.setName("Tom");
         human2.setAge(20);
         human2.getInfo();
+
     }
 
 
