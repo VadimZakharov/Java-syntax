@@ -1,3 +1,5 @@
+package Simple_actions;
+
 import java.util.*;
 
 public class Array_of_arrays {

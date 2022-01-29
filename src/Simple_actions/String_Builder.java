@@ -1,12 +1,14 @@
+package Simple_actions;
+
 public class String_Builder {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("Hello");
 
         sb.append(" my").append(" friend");
         System.out.println(sb);
-        System.out.printf("This is string, %s", "Added string");
+        System.out.printf("Simple_actions.This is string, %s", "Added string");
         System.out.println();
-        System.out.printf("This is number, %d", 10);
+        System.out.printf("Simple_actions.This is number, %d", 10);
         System.out.println();
         System.out.printf("%f New string with (%s), and %d numbers \n",10.9," STRINGS", 5);
         System.out.printf("String lenght %10d \n", 1000000);

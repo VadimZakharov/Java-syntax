@@ -1,3 +1,5 @@
+package Simple_actions;
+
 public class Constructors {
     public static void main(String[] args) {
         People people1 = new People("Vadim");

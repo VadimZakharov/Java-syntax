@@ -1,3 +1,5 @@
+package Simple_actions;
+
 import java.util.Arrays;
 
 public class Combining_arrays {

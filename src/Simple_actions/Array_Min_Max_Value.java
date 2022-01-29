@@ -1,3 +1,5 @@
+package Simple_actions;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

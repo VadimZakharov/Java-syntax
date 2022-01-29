@@ -1,3 +1,5 @@
+package Simple_actions;
+
 import java.util.Scanner;
 
 public class Rectangle_outline_10X20_while_loop {

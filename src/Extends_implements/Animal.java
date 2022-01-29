@@ -1,3 +1,5 @@
+package Extends_implements;
+
 public class Animal {
 
     String name;

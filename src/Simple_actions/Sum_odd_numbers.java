@@ -1,3 +1,5 @@
+package Simple_actions;
+
 public class Sum_odd_numbers {
 
         public static void main(String[] args) {

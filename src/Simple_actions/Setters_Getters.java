@@ -1,4 +1,4 @@
-import java.util.*;
+package Simple_actions;
 
 public class Setters_Getters {
 

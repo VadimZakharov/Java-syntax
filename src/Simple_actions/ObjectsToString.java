@@ -1,3 +1,5 @@
+package Simple_actions;
+
 public class ObjectsToString {
     public static void main(String[] args) {
         Object object = new Object("big",35);

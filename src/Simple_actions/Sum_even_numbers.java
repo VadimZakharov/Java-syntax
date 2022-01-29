@@ -1,3 +1,5 @@
+package Simple_actions;
+
 import java.util.Scanner;
 
 public class Sum_even_numbers {

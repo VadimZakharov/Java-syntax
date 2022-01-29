@@ -1,4 +1,4 @@
-import java.util.*;
+package Simple_actions;
 
 public class Classes_Objects_Methods {
     public static void main(String[] args) {
