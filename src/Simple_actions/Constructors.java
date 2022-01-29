@@ -1,4 +1,4 @@
-package Simple_actions;
+package src.Simple_actions;
 
 public class Constructors {
     public static void main(String[] args) {

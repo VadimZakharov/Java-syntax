@@ -1,4 +1,4 @@
-package Simple_actions;
+package src.Simple_actions;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Simple_actions;
+package src.Simple_actions;
 
 public class ObjectsToString {
     public static void main(String[] args) {
