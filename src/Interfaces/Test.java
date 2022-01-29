@@ -1,4 +1,4 @@
-package Interfaces;
+package src.Interfaces;
 
 public class Test {
     public static void main(String[] args) {
