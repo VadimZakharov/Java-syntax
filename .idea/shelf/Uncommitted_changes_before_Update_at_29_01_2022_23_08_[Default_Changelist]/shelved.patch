@@ -1,0 +1,602 @@
+Index: src/Extends_implements/Zoo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Extends_implements;\r\n\r\nimport Extends_implements.Animal;\r\nimport Extends_implements.Dog;\r\n\r\npublic class Zoo {\r\n    public static void main(String[] args) {\r\n        Animal animal = new Animal();\r\n        animal.eat();\r\n        animal.sleep();\r\n        Dog dog = new Dog();\r\n        dog.eat();\r\n        dog.sleep();\r\n        dog.bark();\r\n        dog.showName();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Extends_implements/Zoo.java b/src/Extends_implements/Zoo.java
+--- a/src/Extends_implements/Zoo.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Extends_implements/Zoo.java	(date 1643467643386)
+@@ -1,7 +1,7 @@
+-package Extends_implements;
++package src.Extends_implements;
+ 
+-import Extends_implements.Animal;
+-import Extends_implements.Dog;
++import src.Extends_implements.Animal;
++import src.Extends_implements.Dog;
+ 
+ public class Zoo {
+     public static void main(String[] args) {
+Index: src/Simple_actions/This.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\npublic class This {\r\n\r\n    public static void main(String[] args) {\r\n        Human human1 = new Human();\r\n        human1.setName(\"Vadim\");\r\n        human1.setAge(29);\r\n        human1.getInfo();\r\n        Human human2 = new Human();\r\n        human2.setName(\"Tom\");\r\n        human2.setAge(20);\r\n        human2.getInfo();\r\n\r\n    }\r\n\r\n\r\n}\r\nclass Human{\r\n    String name;\r\n    int age;\r\n\r\n    public void setName(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n    public void setAge(int age) {\r\n        this.age = age;\r\n    }\r\n\r\n    public String getName() {\r\n        return name;\r\n    }\r\n\r\n    public int getAge() {\r\n        return age;\r\n    }\r\n    public void getInfo(){\r\n        System.out.println(name + \" \" + age);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/This.java b/src/Simple_actions/This.java
+--- a/src/Simple_actions/This.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/This.java	(date 1643467643634)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ public class This {
+ 
+Index: src/Simple_actions/Rectangle_outline_10X20_while_loop.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Rectangle_outline_10X20_while_loop {\r\n    public static void main(String[] args) {\r\n        int n = 0;\r\n\r\n       while (n == 0)\r\n        {\r\n\r\n            int m = 0;\r\n\r\n            while (m < 20)\r\n            {\r\n                System.out.print(\"А\");\r\n                m++;\r\n            }\r\n\r\n            System.out.println();\r\n\r\n            n++;\r\n\r\n        }\r\n       while ( n < 9 )\r\n        { int m = 0;\r\n\r\n            while (m < 1)\r\n            {\r\n                System.out.println(\"А                  A\");\r\n                m++;\r\n            }\r\n\r\n            n++;\r\n\r\n        }\r\n        while (n == 9)\r\n        {\r\n\r\n            int m = 0;\r\n\r\n            while (m < 20)\r\n            {\r\n                System.out.print(\"А\");\r\n                m++;\r\n            }\r\n\r\n            System.out.println();\r\n\r\n            n++;\r\n\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Rectangle_outline_10X20_while_loop.java b/src/Simple_actions/Rectangle_outline_10X20_while_loop.java
+--- a/src/Simple_actions/Rectangle_outline_10X20_while_loop.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Rectangle_outline_10X20_while_loop.java	(date 1643467643616)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.Scanner;
+ 
+Index: src/Simple_actions/Setters_Getters.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\npublic class Setters_Getters {\r\n\r\n    public static void main(String[] args) {\r\n    Person1 person1 = new Person1();\r\n    person1.setName(\"Vadim\");\r\n    person1.setAge(29);\r\n    person1.speak();\r\n        System.out.println(\"Выводим имя в get методе \" + person1.getName());\r\n        System.out.println(\"Выводим возраст в get методе \" + person1.getAge());\r\n\r\n    }\r\n}\r\n\r\nclass Person1 {\r\n    private String name;\r\n    private int age;\r\n\r\n    public void setName(String userName) {\r\n        if (userName.isEmpty()) {\r\n            System.out.println(\"Ты вёл пускую строку, введи имя\");\r\n        } else {\r\n            name = userName;\r\n\r\n        }\r\n    }\r\n\r\n    public String getName() {\r\n        return name;\r\n    }\r\n\r\n    public void setAge(int userAge) {\r\n        if (userAge < 0) {\r\n            System.out.println(\"Тебе не может быть меньше 0\");\r\n        } else {\r\n            age = userAge;\r\n        }\r\n    }\r\n\r\n    public int getAge() {\r\n        return age;\r\n    }\r\n    int calculateYearsToRetirement(){\r\n        int years = 65 - age;\r\n        return years;\r\n    }\r\n\r\n    void speak(){\r\n        for (int i = 0; i < 3; i++) {\r\n            System.out.println(\"My name is \" + name + \" Im \" + age + \" yers old\");\r\n\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Setters_Getters.java b/src/Simple_actions/Setters_Getters.java
+--- a/src/Simple_actions/Setters_Getters.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Setters_Getters.java	(date 1643467643499)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ public class Setters_Getters {
+ 
+Index: src/Simple_actions/Classes_Objects_Methods.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\npublic class Classes_Objects_Methods {\r\n    public static void main(String[] args) {\r\n        Person person1 = new Person();\r\n        person1.setName(\"Anna\",18);\r\n        person1.speak();\r\n        int year1 = person1.calculateYearsToRetirement();\r\n        System.out.println(\"До пенсии мне \" + year1 + \" лет.\");\r\n\r\n\r\n    }\r\n\r\n}\r\nclass Person {\r\n    String name;\r\n    int age;\r\n\r\n\r\n    int calculateYearsToRetirement(){\r\n\r\n        int retirement = 65 - age;\r\n        return retirement;\r\n    }\r\n    void speak(){\r\n        for (int i = 0; i < 3; i++) {\r\n            System.out.println(\"Меня зовут \" + name + \" мне \" + age + \" лет\");\r\n        }\r\n\r\n            }\r\n    void setName(String username, int userage){\r\n        name = username;\r\n        age = userage;\r\n    }\r\n}\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Classes_Objects_Methods.java b/src/Simple_actions/Classes_Objects_Methods.java
+--- a/src/Simple_actions/Classes_Objects_Methods.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Classes_Objects_Methods.java	(date 1643467643564)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ public class Classes_Objects_Methods {
+     public static void main(String[] args) {
+Index: src/Simple_actions/Arrays_class.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.*;\r\n\r\npublic class Arrays_class {\r\n    public static void main(String[] args) {\r\n        int[] array = {1, 2, 3};\r\n        String str = Arrays.toString(array);\r\n        System.out.println(str); // Переменная str будет содержать строковое значение:  \"[1, 2, 3]\"\r\n\r\n\r\n        int[][] array1 = { {1, 1}, {2, 2}, {3, 3} };\r\n        String str1 = Arrays.deepToString(array1);\r\n        System.out.println(str1); // Переменная str будет содержать строковое значение:  \"[[1, 1], [2, 2], [3, 3]]\"\r\n\r\n\r\n        int[] x1 = {1, 2, 3};\r\n        int[] x2 = {1, 2, 3};\r\n        System.out.println(Arrays.equals(x1, x2)); // Сравнивает содержимое массивов (True/False)\r\n\r\n        int[][] x3 = {{1, 2, 3}, {4, 5, 6}};\r\n        int[][] x4 = {{1, 2, 3}, {4, 5, 6}};\r\n        System.out.println(Arrays.deepEquals(x3, x4)); // Сравнивает содержимое массива массивов (True/False)\r\n\r\n        int[] x = new int[10];\r\n        Arrays.fill(x, 999);\r\n        String str2 = Arrays.toString(x);\r\n        System.out.println(str2); // Заполняет массив значением\r\n\r\n        int[] x5 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};\r\n\r\n        int[] x6 = Arrays.copyOf(x5, 5);\r\n        String str3 = Arrays.toString(x6); // Копирует массив или часть массива или создаёт новый с частью старого\r\n\r\n        int[] x7 = Arrays.copyOf(x5, 15);\r\n        String str4 = Arrays.toString(x7);\r\n        System.out.println(str3);\r\n        System.out.println(str4); // Копирует массив или часть массива или создаёт новый с частью старого\r\n\r\n        int[] x8 = {11, 12, 13, 14, 15, 16, 17, 18, 19, 20};\r\n\r\n        int[] x9= Arrays.copyOfRange(x8, 5, 10);\r\n        String str5 = Arrays.toString(x9);  // Копирует промежуток массива\r\n\r\n        int[] x10 = Arrays.copyOfRange(x8, 5, 15);\r\n        String str6 = Arrays.toString(x10);\r\n        System.out.println(str5);\r\n        System.out.println(str6);\r\n\r\n        int[] x11 = {11, -2, 3, 0, 999, -20, 8, -20, 99, -20};\r\n\r\n        Arrays.sort(x11);\r\n\r\n        String str7 = Arrays.toString(x11);\r\n        System.out.println(str7); // Сортирует числа массива от большего к меньшему\r\n\r\n        int[] x12 = {11, -2, 3, 0, 999, -20, 8, -20, 99, -20};\r\n\r\n        Arrays.sort(x12, 4, 8);\r\n        String str8 = Arrays.toString(x12);\r\n        System.out.println(str8); // Сортирует промежуток массива\r\n\r\n        System.out.println(\"Ссылка на Oracle документация по классу Arrays https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Arrays.html\");\r\n        System.out.println(\"https://javarush.ru/groups/posts/massivy-java \" + \" https://javarush.ru/groups/posts/1932-koe-chto-o-massivakh \" + \" https://javarush.ru/groups/posts/1933-klass-arrays-i-ego-ispoljhzovanie\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Arrays_class.java b/src/Simple_actions/Arrays_class.java
+--- a/src/Simple_actions/Arrays_class.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Arrays_class.java	(date 1643467643164)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.*;
+ 
+Index: src/Simple_actions/Array_of_arrays.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.*;\r\n\r\npublic class Array_of_arrays {\r\n    public static void main(String[] args) {\r\n        String [][] multiplication_table = new String [10][10];\r\n        for (int i = 0; i < 10; i++) {\r\n            System.out.println();\r\n            for (int j = 0; j <10; j++) {\r\n                multiplication_table[i][j] = (i + \" * \" + j + \" = \" + (i * j) + \" \");\r\n\r\n\r\n                if (j == 1) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n\r\n\r\n                }\r\n                else if (j == 2) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n                }\r\n                else if (j == 3) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n                }\r\n                else if (j == 4) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n                }\r\n                else if (j == 5) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n                }\r\n                else if (j == 6) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n                }\r\n                else if (j == 7) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n                }\r\n                else if (j == 8) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n                }\r\n                else if (j == 9) {\r\n\r\n\r\n                    System.out.print(multiplication_table[i][j]);\r\n                }\r\n            }\r\n        }\r\n\r\n        }\r\n    }\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Array_of_arrays.java b/src/Simple_actions/Array_of_arrays.java
+--- a/src/Simple_actions/Array_of_arrays.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Array_of_arrays.java	(date 1643467643413)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.*;
+ 
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1643460703656)
++++ b/.idea/vcs.xml	(date 1643460703656)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/Simple_actions/ObjectsToString.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\npublic class ObjectsToString {\r\n    public static void main(String[] args) {\r\n        Object object = new Object(\"big\",35);\r\n        System.out.println(object);\r\n\r\n    }\r\n}\r\nclass Object {\r\n    private String room;\r\n    private  int size;\r\n    public String toString(){\r\n        return room + \",\" + size;\r\n    }\r\n\r\n    public Object (String room,int size){\r\n        this.room = room;\r\n        this.size = size;\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/ObjectsToString.java b/src/Simple_actions/ObjectsToString.java
+--- a/src/Simple_actions/ObjectsToString.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/ObjectsToString.java	(date 1643467643208)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ public class ObjectsToString {
+     public static void main(String[] args) {
+Index: src/Simple_actions/String_Builder.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\npublic class String_Builder {\r\n    public static void main(String[] args) {\r\n        StringBuilder sb = new StringBuilder(\"Hello\");\r\n\r\n        sb.append(\" my\").append(\" friend\");\r\n        System.out.println(sb);\r\n        System.out.printf(\"Simple_actions.This is string, %s\", \"Added string\");\r\n        System.out.println();\r\n        System.out.printf(\"Simple_actions.This is number, %d\", 10);\r\n        System.out.println();\r\n        System.out.printf(\"%f New string with (%s), and %d numbers \\n\",10.9,\" STRINGS\", 5);\r\n        System.out.printf(\"String lenght %10d \\n\", 1000000);\r\n        System.out.printf(\"String lenght %10d \\n\", 5);\r\n        System.out.printf(\"String lenght %10d \\n\", 9999);\r\n        System.out.printf(\"String lenght %10d \\n\", 633);\r\n        System.out.printf(\"String %.2f \\n\", 25.55555);\r\n        System.out.printf(\"String %.2f \\n\", 225.55555);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/String_Builder.java b/src/Simple_actions/String_Builder.java
+--- a/src/Simple_actions/String_Builder.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/String_Builder.java	(date 1643467643376)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ public class String_Builder {
+     public static void main(String[] args) {
+Index: src/Simple_actions/Constructors.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\npublic class Constructors {\r\n    public static void main(String[] args) {\r\n        People people1 = new People(\"Vadim\");\r\n        people1.setName(\"Vadim\");\r\n        people1.setAge(29);\r\n\r\n    }\r\n}\r\n    class People {\r\n\r\n        private String name;\r\n        private int age;\r\n\r\n        public People(){\r\n            System.out.println(\"Я первый\");\r\n        }\r\n\r\n        public People(String name){\r\n            System.out.println(\"Я второй\");\r\n        }\r\n\r\n        public  People(String name, int age){\r\n            System.out.println(\"Я третий\");\r\n        }\r\n\r\n        public void setName(String name) {\r\n            this.name = name;\r\n        }\r\n        public String getName() {\r\n            return name;\r\n        }\r\n\r\n        public void setAge(int age) {\r\n            this.age = age;\r\n        }\r\n        public int getAge() {\r\n            return age;\r\n        }\r\n    }\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Constructors.java b/src/Simple_actions/Constructors.java
+--- a/src/Simple_actions/Constructors.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Constructors.java	(date 1643467643275)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ public class Constructors {
+     public static void main(String[] args) {
+Index: .idea/ProjectToGit.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/ProjectToGit.iml b/.idea/ProjectToGit.iml
+new file mode 100644
+--- /dev/null	(date 1643465863733)
++++ b/.idea/ProjectToGit.iml	(date 1643465863733)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/Interfaces/Info.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Interfaces;\r\n\r\npublic interface Info {\r\n\r\n    public void showInfo();\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Interfaces/Info.java b/src/Interfaces/Info.java
+--- a/src/Interfaces/Info.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Interfaces/Info.java	(date 1643467643286)
+@@ -1,4 +1,4 @@
+-package Interfaces;
++package src.Interfaces;
+ 
+ public interface Info {
+ 
+Index: src/Interfaces/Test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Interfaces;\r\n\r\npublic class Test {\r\n    public static void main(String[] args) {\r\n      Animal animal1 = new Animal(1);\r\n      Person person1 = new Person(\"Vadia\");\r\n\r\n        outputInfo(animal1);\r\n        outputInfo(person1);\r\n    }\r\n    public static void outputInfo(Info info){\r\n        info.showInfo();\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Interfaces/Test.java b/src/Interfaces/Test.java
+--- a/src/Interfaces/Test.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Interfaces/Test.java	(date 1643467643425)
+@@ -1,4 +1,4 @@
+-package Interfaces;
++package src.Interfaces;
+ 
+ public class Test {
+     public static void main(String[] args) {
+Index: src/Interfaces/Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Interfaces;\r\n\r\npublic class Person implements Info {\r\n\r\n    public Person(String name) {\r\n        this.name = name;\r\n    }\r\n\r\n    public String name;\r\n\r\n    public void sayHello() {\r\n        System.out.println(\"Hello\");\r\n    }\r\n\r\n    @Override\r\n    public void showInfo() {\r\n        System.out.println(\"Name is \" + name);\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Interfaces/Person.java b/src/Interfaces/Person.java
+--- a/src/Interfaces/Person.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Interfaces/Person.java	(date 1643467643549)
+@@ -1,4 +1,4 @@
+-package Interfaces;
++package src.Interfaces;
+ 
+ public class Person implements Info {
+ 
+Index: src/Interfaces/Animal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Interfaces;\r\n\r\npublic class Animal implements Info {\r\n\r\n    public Animal(int id){\r\n        this.id = id;\r\n    }\r\n\r\n    public int id;\r\n    public void sleep (){\r\n        System.out.println(\"Im sleeping\");\r\n    }\r\n\r\n    @Override\r\n    public void showInfo() {\r\n        System.out.println(\"ID is \" + id);\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Interfaces/Animal.java b/src/Interfaces/Animal.java
+--- a/src/Interfaces/Animal.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Interfaces/Animal.java	(date 1643467643449)
+@@ -1,4 +1,4 @@
+-package Interfaces;
++package src.Interfaces;
+ 
+ public class Animal implements Info {
+ 
+Index: src/Extends_implements/Dog.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Extends_implements;\r\n\r\nimport Extends_implements.Animal;\r\n\r\npublic class Dog extends Animal {\r\n    public void bark(){\r\n        System.out.println(\"Im barking\");\r\n    }\r\n    public void eat(){\r\n        System.out.println(\"Im eating 3 times a day\");\r\n    }\r\n    public void showName(){\r\n        this.name = \"Dogo\";\r\n        System.out.println(name);\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Extends_implements/Dog.java b/src/Extends_implements/Dog.java
+--- a/src/Extends_implements/Dog.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Extends_implements/Dog.java	(date 1643467643196)
+@@ -1,6 +1,6 @@
+-package Extends_implements;
++package src.Extends_implements;
+ 
+-import Extends_implements.Animal;
++import src.Extends_implements.Animal;
+ 
+ public class Dog extends Animal {
+     public void bark(){
+Index: src/Extends_implements/Animal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Extends_implements;\r\n\r\npublic class Animal {\r\n\r\n    String name;\r\n\r\n    public void eat(){\r\n        System.out.println(\"Im eating\");\r\n            }\r\n    public  void sleep(){\r\n        System.out.println(\"Im sleeping\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Extends_implements/Animal.java b/src/Extends_implements/Animal.java
+--- a/src/Extends_implements/Animal.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Extends_implements/Animal.java	(date 1643467643184)
+@@ -1,4 +1,4 @@
+-package Extends_implements;
++package src.Extends_implements;
+ 
+ public class Animal {
+ 
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1643464086042)
++++ b/.idea/modules.xml	(date 1643464086042)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/ProjectToGit.iml" filepath="$PROJECT_DIR$/.idea/ProjectToGit.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1643459901097)
++++ b/.idea/uiDesigner.xml	(date 1643459901097)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1643463770724)
++++ b/.idea/misc.xml	(date 1643463770724)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/Simple_actions/Sum_odd_numbers.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\npublic class Sum_odd_numbers {\r\n\r\n        public static void main(String[] args) {\r\n            int sum = 0;\r\n\r\n            for (int i = 0; i < 15; i++){\r\n                if (i % 2 != 0)\r\n                    sum = i + sum;\r\n\r\n            }\r\n            System.out.println(sum);\r\n        }\r\n    }
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Sum_odd_numbers.java b/src/Simple_actions/Sum_odd_numbers.java
+--- a/src/Simple_actions/Sum_odd_numbers.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Sum_odd_numbers.java	(date 1643467643328)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ public class Sum_odd_numbers {
+ 
+Index: src/Simple_actions/Sum_even_numbers.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Sum_even_numbers {\r\n    public static void main(String[] args) {\r\n       int sum = 0;\r\n\r\n       for (int i = 0; i < 15; i++){\r\n           if (i % 2 == 0)\r\n           sum = i + sum;\r\n\r\n       }\r\n        System.out.println(sum);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Sum_even_numbers.java b/src/Simple_actions/Sum_even_numbers.java
+--- a/src/Simple_actions/Sum_even_numbers.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Sum_even_numbers.java	(date 1643467643574)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.Scanner;
+ 
+Index: src/Simple_actions/Wind_speed_converter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.Scanner;\r\n\r\n\r\nclass info{\r\n    int z = (int) Math.round(4.5);// округление числа до целого\r\n    int x = (int) Math.ceil(4.1); // округление числа до целого вверх\r\n    int y = (int) 4.9;            // округление числа до целого вниз\r\n\r\n} // округление чисел\r\n\r\npublic class Wind_speed_converter{\r\n    public static void main(String[] args) {\r\n        Scanner sc = new Scanner(System.in);\r\n        double speed_ms = sc.nextInt();\r\n        double speed_kmh = speed_ms * 3.6;\r\n\r\n        System.out.println(speed_kmh);\r\n    }\r\n} //конвертер величин скорости из м/с в км/ч\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Wind_speed_converter.java b/src/Simple_actions/Wind_speed_converter.java
+--- a/src/Simple_actions/Wind_speed_converter.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Wind_speed_converter.java	(date 1643467643530)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.Scanner;
+ 
+Index: src/Simple_actions/Do_while_write_string_n_times.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.Scanner;\r\n\r\n\r\npublic class Do_while_write_string_n_times {\r\n    public static void main(String[] args) {\r\n        Scanner console = new Scanner(System.in);\r\n        String s = console.nextLine();\r\n        int i = console.nextInt();\r\n        if (i > 0 && i < 6) {\r\n            do {\r\n                System.out.println(s);\r\n                i--;\r\n            } while (i != 0);\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Do_while_write_string_n_times.java b/src/Simple_actions/Do_while_write_string_n_times.java
+--- a/src/Simple_actions/Do_while_write_string_n_times.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Do_while_write_string_n_times.java	(date 1643467643338)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.Scanner;
+ 
+Index: src/Simple_actions/Array_Same_Strings.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.*;\r\n\r\npublic class Array_Same_Strings {\r\n    public static void main(String[] args) {\r\n        Scanner sc = new Scanner(System.in);\r\n\r\n        String[] a = new String[5];\r\n        String[] b = new String[a.length];\r\n\r\n\r\n        for (int i = 0; i < 5; i++) {\r\n            a[i] = sc.nextLine();\r\n        }\r\n        System.arraycopy(a, 0, b, 0, a.length);\r\n        for (int i = 0; i < a.length; i++) {\r\n            for (int j = 0; j < a.length; j++) {\r\n\r\n                if (a[i].equals(b[j])) {\r\n                    if (i == j) {\r\n                        continue;\r\n                    }\r\n\r\n                    System.out.println(\"Строка \" + (i + 1) + \" \" + a[i] + \" соответствует \" + (j + 1) + \" \" + b[j]);\r\n\r\n                }\r\n\r\n                }\r\n               }\r\n\r\n            }\r\n       }\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Array_Same_Strings.java b/src/Simple_actions/Array_Same_Strings.java
+--- a/src/Simple_actions/Array_Same_Strings.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Array_Same_Strings.java	(date 1643467643360)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.*;
+ 
+Index: src/Simple_actions/Array_Min_Max_Value.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.Arrays;\r\nimport java.util.Scanner;\r\n\r\npublic class Array_Min_Max_Value {\r\n    public static void main(String[] args) {\r\n        Scanner sc = new Scanner(System.in);\r\n        System.out.println(\"Введи число\");\r\n        int a = sc.nextInt();\r\n        int [] b = new int[a] ;\r\n\r\n        for (int i = 0; i < a; i++) {\r\n            b[i] = i;\r\n        }\r\n        Arrays.sort(b);\r\n        System.out.println(\"Min value \"+b[0]);\r\n        System.out.println(\"Max value \"+b[b.length-1]);\r\n\r\n\r\n\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Array_Min_Max_Value.java b/src/Simple_actions/Array_Min_Max_Value.java
+--- a/src/Simple_actions/Array_Min_Max_Value.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Array_Min_Max_Value.java	(date 1643467643585)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.Arrays;
+ import java.util.Scanner;
+Index: src/Simple_actions/Combining_arrays.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\nimport java.util.Arrays;\r\n\r\npublic class Combining_arrays {\r\n    public static void main(String[] args) {\r\n\r\n        int[] a = new int[10];\r\n        int[] b = new int[5];\r\n        int i = a.length + b.length;\r\n        int[] c = new int[i];\r\n\r\n\r\n        for (int j = 0; j < a.length; j++) {\r\n            a[j] = 2;\r\n\r\n        }\r\n        for (int t = 0; t < b.length; t++) {\r\n            b[t] = 1;\r\n\r\n        }\r\n\r\n        for (int w = 0; w < a.length; w++) {\r\n            c[w] = a[w];\r\n        }\r\n        for (int e = 0; e < b.length; e++) {\r\n            c[e + a.length] = b[e];\r\n\r\n        }\r\n\r\n        for (int q = 0; q < c.length; q++) {\r\n            System.out.println(c[q]);\r\n\r\n        }\r\n\r\n\r\n        Arrays.fill(a,2);\r\n        Arrays.fill(b,1);\r\n\r\n        System.arraycopy(a,0,c,0,a.length);\r\n        System.arraycopy(b,0,c,0+a.length,b.length);\r\n        for(int j :c)\r\n        {\r\n        System.out.println(j);\r\n\r\n    }\r\n\r\n}\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Combining_arrays.java b/src/Simple_actions/Combining_arrays.java
+--- a/src/Simple_actions/Combining_arrays.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Combining_arrays.java	(date 1643467643317)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ import java.util.Arrays;
+ 
+Index: src/Simple_actions/Array.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Simple_actions;\r\n\r\npublic class Array {\r\n    public static void main(String[] args) {\r\n\r\n        String[] a = new String[10];\r\n        for (int i = 0; i < a.length; i++) {\r\n            if (i % 2 == 0 || i == 0){\r\n                a[i] = \"Четное\";\r\n            }\r\n            else {\r\n                a[i] = \"Нечетное\";\r\n            }\r\n            System.out.println(a[i]);\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Simple_actions/Array.java b/src/Simple_actions/Array.java
+--- a/src/Simple_actions/Array.java	(revision 9d6ec7004f3e85460fc61e80c4308c6d3daa7817)
++++ b/src/Simple_actions/Array.java	(date 1643467643464)
+@@ -1,4 +1,4 @@
+-package Simple_actions;
++package src.Simple_actions;
+ 
+ public class Array {
+     public static void main(String[] args) {
