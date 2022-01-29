@@ -1,7 +1,7 @@
-package Extends_implements;
+package src.Extends_implements;
 
-import Extends_implements.Animal;
-import Extends_implements.Dog;
+import src.Extends_implements.Animal;
+import src.Extends_implements.Dog;
 
 public class Zoo {
     public static void main(String[] args) {

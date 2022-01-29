@@ -1,6 +1,6 @@
-package Extends_implements;
+package src.Extends_implements;
 
-import Extends_implements.Animal;
+import src.Extends_implements.Animal;
 
 public class Dog extends Animal {
     public void bark(){

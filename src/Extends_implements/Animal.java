@@ -1,4 +1,4 @@
-package Extends_implements;
+package src.Extends_implements;
 
 public class Animal {
 
