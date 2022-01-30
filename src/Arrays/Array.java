@@ -1,4 +1,4 @@
-package src.Simple_actions;
+package src.Arrays;
 
 public class Array {
     public static void main(String[] args) {

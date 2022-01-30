@@ -1,4 +1,4 @@
-package src.Simple_actions;
+package src.Arrays;
 
 import java.util.*;
 
