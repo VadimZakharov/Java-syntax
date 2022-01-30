@@ -1,4 +1,4 @@
-package src.Simple_actions;
+package src.ClassesObjectsMethods;
 
 public class Classes_Objects_Methods {
     public static void main(String[] args) {

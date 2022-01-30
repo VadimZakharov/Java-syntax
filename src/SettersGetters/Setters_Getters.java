@@ -1,4 +1,4 @@
-package src.Simple_actions;
+package src.SettersGetters;
 
 public class Setters_Getters {
 
