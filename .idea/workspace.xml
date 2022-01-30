@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3882b588-f49a-4b60-8347-93fa71739acc" name="Default Changelist" comment="Циклы">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3882b588-f49a-4b60-8347-93fa71739acc" name="Default Changelist" comment="Приведение примитивных типов данных">
+      <change beforePath="$PROJECT_DIR$/.idea/ProjectToGit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSyntax.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
   <component name="RunManager" selected="Application.Sum_even_numbers">
     <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Polymorphism.Dog" />
-      <module name="ProjectToGit" />
+      <module name="JavaSyntax" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Polymorphism.*" />
@@ -74,7 +74,7 @@
     </configuration>
     <configuration name="Sum_even_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Сycles.Sum_even_numbers" />
-      <module name="ProjectToGit" />
+      <module name="JavaSyntax" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Сycles.*" />
@@ -87,7 +87,7 @@
     </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Access_Modifiers.Package1.Test" />
-      <module name="ProjectToGit" />
+      <module name="JavaSyntax" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Access_Modifiers.Package1.*" />
@@ -100,7 +100,7 @@
     </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Polymorphism.Test" />
-      <module name="ProjectToGit" />
+      <module name="JavaSyntax" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Polymorphism.*" />
@@ -141,7 +141,7 @@
     </configuration>
     <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Extends_implements.Zoo" />
-      <module name="ProjectToGit" />
+      <module name="JavaSyntax" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +153,53 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaSyntax" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JavaSyntax" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,7 +229,7 @@
       <workItem from="1643463903371" duration="759000" />
       <workItem from="1643464959996" duration="173000" />
       <workItem from="1643465391912" duration="129000" />
-      <workItem from="1643465745119" duration="10516000" />
+      <workItem from="1643465745119" duration="11526000" />
     </task>
     <task id="LOCAL-00001" summary="Прямоугольник 10Х20 через цикл while">
       <created>1642430005968</created>
@@ -443,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643566374872</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Приведение примитивных типов данных">
+      <created>1643569778863</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1643569778863</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Приведение примитивных типов данных">
+      <created>1643569792513</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1643569792513</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Объединение двух массиво в третий вместе с данными через цикл for, и предложенный IntellijIdea" />
     <MESSAGE value="Min и Max число в массиве" />
     <MESSAGE value="Ищет одинаковые строки в массиве и показывает их." />
     <MESSAGE value="Массив массивов. Таблица умножения" />
@@ -487,6 +547,7 @@
     <MESSAGE value="СеттерыГеттеры" />
     <MESSAGE value="Конструкторы" />
     <MESSAGE value="Циклы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Циклы" />
+    <MESSAGE value="Приведение примитивных типов данных" />
+    <option name="LAST_COMMIT_MESSAGE" value="Приведение примитивных типов данных" />
   </component>
 </project>
