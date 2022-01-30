@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3882b588-f49a-4b60-8347-93fa71739acc" name="Default Changelist" comment="Классы объекты методы">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3882b588-f49a-4b60-8347-93fa71739acc" name="Default Changelist" comment="Кллючевое слово this">
+      <change beforePath="$PROJECT_DIR$/src/This/This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/This/This.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,7 @@
       <workItem from="1643463903371" duration="759000" />
       <workItem from="1643464959996" duration="173000" />
       <workItem from="1643465391912" duration="129000" />
-      <workItem from="1643465745119" duration="5748000" />
+      <workItem from="1643465745119" duration="6202000" />
     </task>
     <task id="LOCAL-00001" summary="Прямоугольник 10Х20 через цикл while">
       <created>1642430005968</created>
@@ -402,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643564765300</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Кллючевое слово this">
+      <created>1643565093060</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1643565093060</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +428,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Сумма четных чисел цикл for" />
     <MESSAGE value="Сумма нечетных чисел цикл for" />
     <MESSAGE value="Цикл do while принимает строку (scanner) и печатает её i раз, но не меньше нуля и не больше пяти." />
     <MESSAGE value="Конвертер величин скорости из м/с в км/ч&#10;Инфо по округлению вещественных чисел" />
@@ -446,6 +452,7 @@
     <MESSAGE value="Что ты такое??" />
     <MESSAGE value="Массивы" />
     <MESSAGE value="Классы объекты методы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Классы объекты методы" />
+    <MESSAGE value="Кллючевое слово this" />
+    <option name="LAST_COMMIT_MESSAGE" value="Кллючевое слово this" />
   </component>
 </project>
