@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3882b588-f49a-4b60-8347-93fa71739acc" name="Default Changelist" comment="Простые действия">
-      <change afterPath="$PROJECT_DIR$/.idea/ProjectToGit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/Test.java" afterDir="false" />
+    <list default="true" id="3882b588-f49a-4b60-8347-93fa71739acc" name="Default Changelist" comment="Классы объекты методы">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +176,7 @@
       <workItem from="1643463903371" duration="759000" />
       <workItem from="1643464959996" duration="173000" />
       <workItem from="1643465391912" duration="129000" />
-      <workItem from="1643465745119" duration="3545000" />
+      <workItem from="1643465745119" duration="5748000" />
     </task>
     <task id="LOCAL-00001" summary="Прямоугольник 10Х20 через цикл while">
       <created>1642430005968</created>
@@ -382,7 +374,35 @@
       <option name="project" value="LOCAL" />
       <updated>1643469266237</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Интерфейсы">
+      <created>1643469366864</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1643469366864</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Что ты такое??">
+      <created>1643469425611</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1643469425612</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Массивы">
+      <created>1643564538176</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1643564538176</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Классы объекты методы">
+      <created>1643564765300</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1643564765300</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,8 +421,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Прямоугольник 10Х20 через цикл while" />
-    <MESSAGE value="Контур прямоугольника 10Х20 через цикл while" />
     <MESSAGE value="Сумма четных чисел цикл for" />
     <MESSAGE value="Сумма нечетных чисел цикл for" />
     <MESSAGE value="Цикл do while принимает строку (scanner) и печатает её i раз, но не меньше нуля и не больше пяти." />
@@ -419,12 +437,15 @@
     <MESSAGE value="Конструкторы, перегрузка методов" />
     <MESSAGE value="StringBuilder" />
     <MESSAGE value="Objects toString" />
-    <MESSAGE value="Интерфейсы" />
     <MESSAGE value="Рассортировал" />
     <MESSAGE value="Модификаторы доступа" />
     <MESSAGE value="Полиморфизм" />
     <MESSAGE value="Наследование" />
     <MESSAGE value="Простые действия" />
-    <option name="LAST_COMMIT_MESSAGE" value="Простые действия" />
+    <MESSAGE value="Интерфейсы" />
+    <MESSAGE value="Что ты такое??" />
+    <MESSAGE value="Массивы" />
+    <MESSAGE value="Классы объекты методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Классы объекты методы" />
   </component>
 </project>
