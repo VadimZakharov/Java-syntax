@@ -1,6 +1,4 @@
-package src.Simple_actions;
-
-import java.util.Scanner;
+package src.Сycles;
 
 public class Rectangle_outline_10X20_while_loop {
     public static void main(String[] args) {

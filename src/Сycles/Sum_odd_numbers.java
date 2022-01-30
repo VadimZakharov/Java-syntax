@@ -1,4 +1,4 @@
-package src.Simple_actions;
+package src.Сycles;
 
 public class Sum_odd_numbers {
 

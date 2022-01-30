@@ -1,4 +1,4 @@
-package src.Simple_actions;
+package src.Сycles;
 
 public class String_Builder {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package src.Simple_actions;
-
-import java.util.Scanner;
+package src.Сycles;
 
 public class Sum_even_numbers {
     public static void main(String[] args) {
